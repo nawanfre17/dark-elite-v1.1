@@ -99,12 +99,13 @@ def loginSC():
         print 42*"\033[32;1m="
 	print"\033[1;96mLogin lisensi script nya,Terlebih dahulu bosku✓ \n"
         print"\033[1;96mJika tidak tau lisensinya,ANDA bisa download dulu✓ \n"
-        print"\033[1;96mDi website yang kami arahkan otomatis tadi, terimakasih✓ \n"
+        print"\033[1;96mDi website yang ADMIN Sediakan, terimakasih✓ \n"
         print 42*"\033[1;91m-"
+        print"
         print"\033[1;96mJANGGAN LUPA SUBSCRIBE JUGA YOUTUBE SAYA, NAWAN XT \n"
         print 42*"\033[32;1m="
 	os.system('xdg-open https://tatawirdat.blogspot.com')
-        username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
+        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Balai" and password =="Kami":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
