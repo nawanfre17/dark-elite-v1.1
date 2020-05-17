@@ -100,6 +100,7 @@ def loginSC():
 	print"\033[1;96mLogin lisensi script nya,Terlebih dahulu bosku✓ \n"
         print"\033[1;96mJika tidak tau lisensinya,ANDA bisa download dulu✓ \n"
         print"\033[1;96mDi website yang ADMIN Sediakan, terimakasih✓ \n"
+        print"\033[1;96m                                             \n"
         print 42*"\033[1;91m-"
         print"\033[1;96mJANGGAN LUPA SUBSCRIBE JUGA YOUTUBE SAYA, NAWAN XT \n"
         print 42*"\033[32;1m="
