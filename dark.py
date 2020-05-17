@@ -329,12 +329,9 @@ def pilih_super():
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
-	print 42*"\033[1;96m-"
-        print('\x1b[1;96m[!] \x1b[0;1mNAMA')
-        print('\x1b[1;96m[!] \x1b[0;1mANDA')
         print 42*"\033[1;96m="
 	
-			
+       		
 	def main(arg):
 		global cekpoint,oks
 		user = arg
