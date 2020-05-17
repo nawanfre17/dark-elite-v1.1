@@ -207,8 +207,8 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m HACK FACEBOOK TERBARU {✓}"
-	print "\n\x1b[32;1m0.\x1b[0;1m LOGOUT            "
+	print "\x1b[32;1m1.\x1b[34;1m HACK FACEBOOK TERBARU {✓}"
+	print "\n\x1b[32;1m0.\x1b[33;1m LOGOUT            "
 	pilih()
 
 
@@ -248,8 +248,8 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m CRACK DARI DAFTAR TEMAN ANDA {✓}"
-	print "\x1b[32;1m2.\x1b[0;1m CRACK DARI ID TEMAN ANDA {✓}"
+	print "\x1b[32;1m1.\x1b[34;1m CRACK DARI DAFTAR TEMAN ANDA {✓}"
+	print "\x1b[32;1m2.\x1b[34;1m CRACK DARI ID TEMAN ANDA {✓}"
 	print "\n\x1b[32;1m0.\x1b[33;1m KEMBALI"
 	pilih_super()
 
