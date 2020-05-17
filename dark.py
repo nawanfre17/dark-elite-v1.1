@@ -124,8 +124,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-                print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT ✓')
-                print('\x1b[1;91m[!]\x1b[1;91m                                                ')
+                print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
+                print('\x1b[1;91m                                                             ')
                 print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]')
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
