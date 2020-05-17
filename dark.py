@@ -55,11 +55,11 @@ logo = """
 \033[0;1m█████████      \033[1;96m●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●
 \033[0;1m██ ██
 \033[0;1m╔════════════════════════════════════════╗
-\033[0;1m║\033[33;1m{✓} \033[34;1mAuthor  \033[1;91m: \033[1;91m\033[4mGUNAWAN  \033[1;93m
-\033[0;1m║\033[33;1m{✓} \033[34;1mGithub  \033[1;91m: \033[1;91m\033[4mhttps://github.com/nawanfre17  \033[1;93m
-\033[0;1m║\033[33;1m{✓} \033[34;1mYouTube \033[32;1m: \033[33;1m\033[4mNAWAN XT  \033[1;93m
-\033[0;1m║\033[33;1m{✓} \033[34;1mFacebok \033[1;91m: \033[1;96m\033[4mhttps://facebook.com/07042002thn  \033[1;93m
-\033[0;1m║\033[33;1m{✓} \033[34;1mVersion \033[1;91m: \033[1;96m\033[4m1.1  \033[1;93m
+\033[0;1m║\033[33;1m{✓} \033[34;1mAuthor  \033[1;91m: \033[1;91mGUNAWAN  \033[1;93m
+\033[0;1m║\033[33;1m{✓} \033[34;1mGithub  \033[1;91m: \033[1;91mhttps://github.com/nawanfre17  \033[1;93m
+\033[0;1m║\033[33;1m{✓} \033[34;1mYouTube \033[1;91m: \033[33;1mNAWAN XT  \033[1;93m
+\033[0;1m║\033[33;1m{✓} \033[34;1mFacebok \033[1;91m: \033[1;96mhttps://facebook.com/07042002thn  \033[1;93m
+\033[0;1m║\033[33;1m{✓} \033[34;1mVersion \033[1;91m: \033[1;96m1.1  \033[1;93m
 \033[0;1m╚════════════════════════════════════════╝
 """
 
@@ -82,14 +82,14 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama Mantan kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama ANDA ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		jalan("\033[1;97mSelamat datang,DI SCRIPT Version 1.1 \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
 		time.sleep(1)
 		loginSC()
 		
@@ -100,7 +100,7 @@ def loginSC():
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="Balai" and password =="Kami":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
