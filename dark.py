@@ -201,12 +201,14 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
+        print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
+        print('\x1b[1;91m                                                            ')
 	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m HACK FACEBOOK {✓} "
-	print "\n\x1b[32;1m0.\x1b[0;1m Logout            "
+	print "\x1b[32;1m1.\x1b[0;1m HACK FACEBOOK TERBARU {✓}"
+	print "\n\x1b[32;1m0.\x1b[0;1m LOGOUT            "
 	pilih()
 
 
@@ -246,9 +248,9 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
-	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
-	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
+	print "\x1b[32;1m1.\x1b[0;1m CRACK DARI DAFTAR TEMAN ANDA {✓}"
+	print "\x1b[32;1m2.\x1b[0;1m CRACK DARI ID TEMAN ANDA {✓}"
+	print "\n\x1b[32;1m0.\x1b[33;1m KEMBALI"
 	pilih_super()
 
 def pilih_super():
