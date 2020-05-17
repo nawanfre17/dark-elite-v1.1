@@ -204,7 +204,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[0;1m Hack facebook "
+	print "\x1b[32;1m1.\x1b[0;1m Hack Facebook "
 	print "\x1b[32;1m2.\x1b[0;1m Lihat daftar grup               "
 	print "\x1b[32;1m3.\x1b[0;1m Informasi akun               "
 	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone               "
