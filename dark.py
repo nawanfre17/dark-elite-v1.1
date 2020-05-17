@@ -100,8 +100,8 @@ def loginSC():
 	print"\033[1;96mLogin lisensi script nya,Terlebih dahulu bosku✓ \n"
         print"\033[1;96mJika tidak tau lisensinya,ANDA bisa download dulu✓ \n"
         print"\033[1;96mDi website yang ADMIN Sediakan, terimakasih✓ \n"
-        print"\033[1;96m                                             \n"
         print 42*"\033[1;91m-"
+        print"\033[1;96m                                             \n"
         print"\033[1;96mJANGGAN LUPA SUBSCRIBE JUGA YOUTUBE SAYA, NAWAN XT \n"
         print 42*"\033[32;1m="
 	os.system('xdg-open https://semawur.com/0HzAcbt6MG')
@@ -331,8 +331,8 @@ def pilih_super():
 	print
 	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
         print 42*"\033[1;96m-"
-        print('\x1b[1;96m                                                          ')
-        print('\x1b[1;96m                                                          ')
+        print('\x1b[1;96mTobat la best Bulan RAMADHAN ini la :v                    ')
+        print('\x1b[1;96mBERSIH KAN GALERI KAU DARI VIDIO ***** TU :v              ')
         print 42*"\033[1;96m="
 	
        		
