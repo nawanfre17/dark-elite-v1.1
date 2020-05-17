@@ -330,8 +330,8 @@ def pilih_super():
 	print
 	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
 	print 42*"\033[1;96m-"
-        print('\x1b[1;96m[!] \x1b[0;1mNAMA
-        print('\x1b[1;96m[!] \x1b[0;1mANDA
+        print('\x1b[1;96m[!] \x1b[0;1mNAMA')
+        print('\x1b[1;96m[!] \x1b[0;1mANDA')
         print 42*"\033[1;96m="
 	
 			
