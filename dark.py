@@ -270,8 +270,10 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
+                print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
+                print('\x1b[1;91m                                                            ')
 		print 42*"\033[1;96m="
-		idt = raw_input("\033[1;96m[+] \033[32;1mMasukan ID teman \033[1;91m: \033[1;97m")
+		idt = raw_input("\033[1;96m[+] \033[32;1mMASUKAN ID TEMAN \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
