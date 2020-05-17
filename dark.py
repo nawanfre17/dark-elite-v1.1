@@ -57,9 +57,9 @@ logo = """
 \033[0;1m╔════════════════════════════════════════════════╗
 \033[0;1m║\033[33;1m{*} \033[34;1mAuthor  \033[1;91m: \033[0;1mGUNAWAN\033[32;1m {✓}                       \033[0;1m║
 \033[0;1m║\033[33;1m{*} \033[34;1mGithub  \033[1;91m: \033[0;1mhttps://github.com/nawanfre17\033[32;1m {✓} \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN XT\033[32;1m {✓}                      \033[0;1m║
 \033[0;1m║\033[33;1m{*} \033[34;1mFacebok \033[1;91m: \033[0;1mhttps://fb.me/07042002thn\033[32;1m {✓}     \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mVersion \033[1;91m: \033[0;1m1.1\033[32;1m {✓}                           \033[0;1m║
+\033[0;1m║\033[33;1m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN XT\033[32;1m {✓}                      \033[0;1m║
+\033[0;1m║\033[33;1m{*} \033[34;1mVersion \033[1;91m: \033[0;1mTerbaru 1.1\033[32;1m {✓}                   \033[0;1m║
 \033[0;1m╚════════════════════════════════════════════════╝
 """
 
@@ -124,7 +124,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-                print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
+ print('\x1b[1;91m[!] \x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT ✓')
+                
                 
                 print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
