@@ -80,9 +80,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 def loginSC():
-	os.system('clear')
-		
-		
+	os.system('clear')		
 def loginSC():
 	os.system('clear')
 	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
