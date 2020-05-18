@@ -864,5 +864,4 @@ def clone_dari_file():
 	
        
 		
-if __name__ == '__main__': 
-        print 42*"\033[1;96m="
+if
