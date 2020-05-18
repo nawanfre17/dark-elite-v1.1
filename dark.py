@@ -80,6 +80,7 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
+
 def loginSC():
 	os.system('clear')
         print 42*"\033[32;1m="
