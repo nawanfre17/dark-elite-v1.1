@@ -79,9 +79,8 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
-def siapa():
+def loginSC():
 	os.system('clear')
-	else:
 		
 		
 def loginSC():
