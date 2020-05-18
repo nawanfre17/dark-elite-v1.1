@@ -1,5 +1,4 @@
 
-Skip to content
 Pull requests
 Issues
 Marketplace
