@@ -861,7 +861,3 @@ def clone_dari_file():
 	print"\033[1;96m[+] \033[1;92mFile Tersimpan \033[1;91m:\033[1;97m out/FileMailVuln.txt"
 	raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 	menu()
-	
-       
-		
-if
