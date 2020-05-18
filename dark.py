@@ -1,30 +1,3 @@
-
-Pull requests
-Issues
-Marketplace
-Explore
-@nawanfre17
-spider-fb /
-spider-fb
-
-3
-4
-
-    14
-
-Code
-Issues 0
-Pull requests 0
-Actions
-Projects 0
-Wiki
-Security 0
-
-    Insights
-
-spider-fb/spider-fb.py /
-@spider-fb spider-fb Update spider-fb.py 81716aa on Feb 19
-869 lines (821 sloc) 30.9 KB
 #!/usr/bin/python2
 # coding=utf-8
 
@@ -120,7 +93,7 @@ def loginSC():
 	if username =="anak" and password =="binjai":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
-		login()
+		loginSC()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open https://tatawirdat.blogspot.com')
@@ -885,18 +858,3 @@ def clone_dari_file():
 		
 if __name__ == '__main__':
 	siapa()
-
-    © 2020 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
