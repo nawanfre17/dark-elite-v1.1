@@ -852,5 +852,5 @@ def clone_dari_file():
 	
        
 		
-if __username__ == '__password__':
+if __name__ == '__main__':
        loginSC()
